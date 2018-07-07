@@ -1,6 +1,6 @@
 # Image Based Search Engine
 
-![Search]("https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/search-engine.jpg")
+![Search](https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/search-engine.jpg)
 
 This repository consists of my implementation of an image-based search engine.
 
