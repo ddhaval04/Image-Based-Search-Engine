@@ -25,7 +25,7 @@ I am using a pre-trained VGG16 network to create vector representations of the i
 
 The notebook uses two different data sources:
 #### - Sunglasses dataset:
-I made us of the script provided by ![Hardikvasa](https://github.com/hardikvasa/google-images-download) to download 9 different types of sunglasses.
+I made us of the script provided by [Hardikvasa](https://github.com/hardikvasa/google-images-download) to download 9 different types of sunglasses.
 #### - Subset of Dog-breed-identification dataset on Kaggle.
 
 ## Dependencies (pip install)
@@ -36,4 +36,29 @@ pandas
 matplotlib
 annoy
 keras
-```# Image-Based-Search-Engine
+```
+## Results
+
+### Input Image (Image to search):
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/dog-input.png">
+</p>
+
+### Similar Images:
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/dog-results.png">
+</p>
+
+### Input Image (Image to search):
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/sunglasses-input.png">
+</p>
+
+### Similar Images:
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/sunglasses-results.png">
+</p>
