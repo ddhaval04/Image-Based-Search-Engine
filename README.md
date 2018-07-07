@@ -19,7 +19,9 @@ Now this problem sounds trivial at first, but imagine the amount of data being h
 
 ## Overview
 
-I am using a pre-trained VGG16 network to create vector representations of the input images. To search a particular input image we simply find the vectors close to our input vector. The way I am calculating the similarity is based on the cosine distance between our input embedding and the embeddings of the other images.
+I am using a pre-trained VGG16 network to create vector representations of the input images. To search a particular input image we simply find the vectors close to our input vector. The way I am calculating the similarity is based on the cosine distance between our input embedding and the embeddings of the other images. This approach is fast (a forward pass and an efficient similarity search (check [Annoy](https://github.com/spotify/annoy))) and is also scalable.
+
+This is something I stumbled upon when checking out the work done by Spotify int the deep-learning space.
 
 ## Data:
 
