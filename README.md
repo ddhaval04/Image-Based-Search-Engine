@@ -25,10 +25,14 @@ This is something I stumbled upon when checking out the work done by Spotify int
 
 ## Data:
 
-The notebook uses two different data sources:
+The notebook uses three different data sources:
+
 #### - Sunglasses dataset:
 I made us of the script provided by [Hardikvasa](https://github.com/hardikvasa/google-images-download) to download 9 different types of sunglasses.
-#### - Subset of Dog-breed-identification dataset on Kaggle.
+
+#### - Subset of Dog-breed-identification dataset on Kaggle. (https://www.kaggle.com/c/dog-breed-identification)
+
+#### - Subset of Stanford's Car Image Dataset. (https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 
 ## Dependencies (pip install)
 
@@ -41,17 +45,35 @@ keras
 ```
 ## Results
 
-### Input Image (Image to search):
+### SEARCHING SIMILAR DOGS:
+
+#### Input Image (Image to search):
 
 <p align="left">
   <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/dog-input.png">
 </p>
 
-### Similar Images:
+#### Similar Images:
 
 <p align="left">
   <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/dog-results.png">
 </p>
+
+### SEARCHING SIMILAR CARS:
+
+### Input Image (Image to search):
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/car-input.png">
+</p>
+
+### Similar Images:
+
+<p align="left">
+  <img width="460" height="300" src="https://github.com/ddhaval04/Image-Based-Search-Engine/raw/master/images/car-results.png">
+</p>
+
+### SEARCHING SIMILAR SUNGLASSES:
 
 ### Input Image (Image to search):
 
