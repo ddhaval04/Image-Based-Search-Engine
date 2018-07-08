@@ -61,6 +61,10 @@ keras
 
 ### SEARCHING SIMILAR CARS:
 
+Here, I have used a pre-trained VGG16 and freezed the conv layers and simply trained the FC layers for 2 epochs to classify cars amongst 30 diffrent classes.
+
+We can see that for the given input; Aston Martin Convertible, the similar cars suggested are Aston Martin Convertibles and Convertibles from other makes. Thus, the search engine is pretty robust and fast.
+
 ### Input Image (Image to search):
 
 <p align="left">
